@@ -10,8 +10,11 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillFacebook,
+  AiFillMessage,
+  AiFillMail,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 function Home() {
   return (
@@ -76,7 +79,7 @@ function Home() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaWhatsapp/>
                 </a>
               </li>
               <li className="social-icons">
@@ -96,7 +99,7 @@ function Home() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiFillFacebook />
                 </a>
               </li>
             </ul>

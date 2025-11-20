@@ -13,39 +13,24 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a UI/UX Designer who believes great design isn’t just about how 
+              I’m a <b className="purple"> UI/UX Designer </b> who believes great design isn’t just about how 
               something looks — it’s about how it feels, how it works, and how it 
               makes life a little easier. I’ve always been fascinated by the way 
               people interact with technology, and I’ve made it my mission to create
                digital experiences that are simple, clear, and delightful.
               <br />
               <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
+              From early sketches to <b className="purple"> fully interactive prototypes, </b>
+              I enjoy shaping ideas into products that users love. 
               <br />
               <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              I’m passionate about <b className="purple"> accessibility, meaningful aesthetics, 
+              and designing experiences </b>that stay with people long after they close the page.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              Design to me is a balance of
+              <b className="purple"> creativity, empathy, and problem-solving </b> and I’m constantly exploring new ways 
+              to bring these together in every project I take on.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

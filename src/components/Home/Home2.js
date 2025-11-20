@@ -13,10 +13,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a UI/UX Designer who believes great design isn’t just about how 
+              something looks — it’s about how it feels, how it works, and how it 
+              makes life a little easier. I’ve always been fascinated by the way 
+              people interact with technology, and I’ve made it my mission to create
+               digital experiences that are simple, clear, and delightful.
               <br />
               <br />
               I’m proficient in

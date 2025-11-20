@@ -523,8 +523,8 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: rgba(63, 135, 180, 0.459) !important;
+  border-color: rgba(18, 65, 95, 0.459) !important;
 }
 
 .btn-primary:hover {

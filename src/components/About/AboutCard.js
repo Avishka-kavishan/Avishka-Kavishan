@@ -8,18 +8,24 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I’m <span className="purple">Avishka Kavishan</span>{" "}
+            from <span className="purple">Matara, Sri Lanka</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            I’m final-year undergraduate student at the{" "}
+            <span className="purple">University of Sri Jayewardenepura,</span> currently pursuing my {" "}
+            <span className="purple">BSc in Information Technology</span>.
+            <br/>
+            <br />Over the years, I’ve discovered a strong passion for{" "}
+            <span className="purple">UI/UX Design,</span> and I’m now fully focused on building my career in creating
+             meaningful, user-centered digital experiences.{" "}
+            <span className="purple"></span>.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
+            I love transforming ideas into intuitive interfaces and visually engaging designs. My work is driven by empathy, 
+            simplicity, and a deep interest in how people interact with technology. As I continue my journey, I’m excited to learn, 
+            explore, and contribute to projects that make everyday digital interactions smoother and more enjoyable.
+            <br />
+            <br/>
             creative and inspired:
           </p>
 
@@ -28,17 +34,14 @@ function AboutCard() {
               <ImPointRight /> Playing Games 🎮
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Drawing ART ✍️
             </li>
             <li className="about-activity">
               <ImPointRight /> Traveling and Exploring New Places 🌍
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          
         </blockquote>
       </Card.Body>
     </Card>

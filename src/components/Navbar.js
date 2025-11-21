@@ -5,8 +5,6 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logok.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { AiFillStar } from "react-icons/ai";
 
 import { BsMoon, BsSun } from "react-icons/bs";
 
@@ -33,7 +31,7 @@ function NavBar({ theme, toggleTheme }) {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logo} className="img-fluid logo" alt="brand" /> <samp className="logon">Avishka Kavishan</samp>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

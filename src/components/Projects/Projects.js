@@ -55,7 +55,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="GuidenceGuid Web"
+              title="GuidenceGuid "
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
               ghLink="https://www.figma.com/design/j7SQJV154YF6PsawVT4o8l/Ruhuna-Nat?node-id=75-69&t=bnfGrMcZp8YUQO8Q-1"
             />

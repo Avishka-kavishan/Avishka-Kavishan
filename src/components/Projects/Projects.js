@@ -51,7 +51,10 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="BlueWave Laundry"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="A clean and modern UI I designed for a laundry service app aimed at people with busy schedules. The interface 
+              focuses on simplicity, quick access to services, and a smooth user flow. It features an engaging onboarding screen, clear 
+              service categories, and a user-friendly layout that makes ordering laundry services fast and effortless. The design uses 
+              fresh blue tones to create a clean, reliable, and trustworthy feel."
               ghLink="https://www.figma.com/design/NxZ1JAdTP7Omo7OMXWxFsD/Laundry-Mobile-app?node-id=0-1&t=0FlBQR7gLsARcrP9-1"             
             />
           </Col>

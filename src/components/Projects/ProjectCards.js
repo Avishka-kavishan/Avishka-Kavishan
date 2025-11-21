@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { FiFigma } from "react-icons/fi"; // <-- NEW
+import { FiFigma } from "react-icons/fi";
 
 function ProjectCards(props) {
   return (
@@ -18,9 +17,6 @@ function ProjectCards(props) {
           <FiFigma /> &nbsp;
           {props.isBlog ? "Blog" : "Figma"}
         </Button>
-
-        {"\n"}
-        {"\n"}
       </Card.Body>
     </Card>
   );

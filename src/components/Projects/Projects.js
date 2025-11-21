@@ -86,8 +86,10 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Himalaya Wellness Web"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="A fresh and modern UI I designed for the Himalaya brand, focusing on clarity, trust, and natural wellness. The 
+              layout highlights their moisturizing cream with a clean hero section, bold typography, and soft colors that match the brand 
+              identity. The design features clear CTAs, simple navigation, and a product-focused visual style to enhance user engagement and 
+              \create a smooth shopping experience."
               ghLink="https://www.figma.com/design/5TGga90wOmMLcpYB6zrDM3/Product-web-site-page?node-id=0-1&t=34skhcay90mirPfF-1" 
             />
           </Col>

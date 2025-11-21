@@ -74,7 +74,9 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Furniture Web"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="A modern and minimal UI I designed for an online furniture store. The layout focuses on clean navigation, spacious 
+              visuals, and a calm aesthetic. It highlights the brand’s message with a strong hero section, clear typography, and a simple “Shop 
+              Now” call-to-action. This design aims to deliver a smooth, elegant, and user-friendly shopping experience."
               ghLink="https://www.figma.com/design/DivCUPAD9ZXMQmJHq22UTD/Furniture-website?node-id=1-2&t=e3UDfsHiHt1IElSF-1"
             />
           </Col>

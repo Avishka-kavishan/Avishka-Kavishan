@@ -103,8 +103,6 @@ function NavBar({ theme, toggleTheme }) {
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

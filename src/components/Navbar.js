@@ -6,17 +6,11 @@ import logo from "../Assets/logok.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
-import {
-  AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+import { BsMoon, BsSun } from "react-icons/bs";
 
-function NavBar() {
+function NavBar({ theme, toggleTheme }) {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -88,6 +82,24 @@ function NavBar() {
               >
                  Resume
               </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item className="theme-toggle-btn">
+              <Button
+                variant={theme === "dark" ? "outline-light" : "outline-dark"}
+                onClick={toggleTheme}
+                className="mode-switch"
+              >
+                {theme === "dark" ? (
+                  <>
+                    <BsSun /> Light
+                  </>
+                ) : (
+                  <>
+                    <BsMoon /> Dark
+                  </>
+                )}
+              </Button>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">

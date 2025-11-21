@@ -26,7 +26,9 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Uni Hall Booking"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Bookinglabs is a simple and intuitive UI designed for university students, lecturers, and staff 
+              to avoid double bookings and manage facility reservations easily. It streamlines room and
+               lab bookings with a clean signup flow and a user-friendly layout, making campus scheduling smoother and more efficient."
               ghLink="https://www.figma.com/design/aO5U6jGBBbvVjNOFKmLpWl/Uni-Hall-Booking-App?node-id=1-2&t=nWdiDaFaFRRaicSz-1"
             />
           </Col>
@@ -36,7 +38,10 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Travel Ceylon"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Travel Ceylon is a modern UI designed to help tourists explore Sri Lanka with ease. It includes travel guides, 
+              accommodation bookings, trip planning, and a smart chatbot for instant support. The interface highlights beautiful visuals 
+              and simple navigation to enhance the user experience. This design makes discovering Sri Lanka more convenient, informative, 
+              and enjoyable for every traveler."
               ghLink="https://www.figma.com/design/XGra7K0pUZiBVdyR1btLYJ/Journey-Ceylon-Travel-Mobile-App?node-id=0-1&t=Ek4GxgHGGtzmpdOS-1"
             />
           </Col>
@@ -56,7 +61,10 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="GuidenceGuid Web"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="GuidanceGrid is a modern and user-friendly web interface designed for the Ruhuna National College of Education, This UI helps promote the college’s activities while 
+              providing an organized platform to upload and access learning materials, modules, and resources.
+              The design focuses on clarity, accessibility, and easy navigation, making it simple for teacher trainees to find the support 
+              they need throughout their learning journey."
               ghLink="https://www.figma.com/design/j7SQJV154YF6PsawVT4o8l/Ruhuna-Nat?node-id=75-69&t=bnfGrMcZp8YUQO8Q-1"
             />
           </Col>

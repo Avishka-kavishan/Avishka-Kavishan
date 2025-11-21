@@ -6,6 +6,7 @@ import vsCode from "../../Assets/TechIcons/vscode.svg";
 import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
 import { FiFigma } from "react-icons/fi";
 import { SiAdobexd } from "react-icons/si";
+import { SiCanva, SiFramer } from "react-icons/si";
 
 function Toolstack() {
   return (
@@ -19,7 +20,7 @@ function Toolstack() {
         <div className="tech-icons-text">Adobe XD</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons ">
-        <img src={vsCode} alt="vsCode" className="tech-icon-images" />
+        <SiCanva className="tech-icon-images" />
         <div className="tech-icons-text">Canva</div>
       </Col>
 

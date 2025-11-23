@@ -82,6 +82,16 @@ function NavBar({ theme, toggleTheme }) {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                 Contact
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item className="theme-toggle-btn">
               <Button
                 variant={theme === "dark" ? "outline-light" : "outline-dark"}

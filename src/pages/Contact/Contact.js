@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Button, Alert } from "react-bootstrap";
-import Particle from "../Particle";
+import Particle from "../../components/Particle";
 import { AiFillMail, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { useFormValidation } from "../../hooks/useFormValidation";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -17,7 +16,27 @@ function Contact() {
     message: "",
   });
 
-  const { errors, validateField, validateForm, resetErrors } = useFormValidation();
+  const [errors, setErrors] = useState({});
+
+  const validateField = (name, value) => {
+    const newErrors = { ...errors };
+    if (name === "email" && value && !/\S+@\S+\.\S+/.test(value)) {
+      newErrors.email = "Please enter a valid email address";
+    } else if (name === "email") {
+      delete newErrors.email;
+    }
+    if (name === "name" && value && value.trim().length < 2) {
+      newErrors.name = "Name must be at least 2 characters";
+    } else if (name === "name") {
+      delete newErrors.name;
+    }
+    if (name === "message" && value && value.trim().length < 10) {
+      newErrors.message = "Message must be at least 10 characters";
+    } else if (name === "message") {
+      delete newErrors.message;
+    }
+    setErrors(newErrors);
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -31,9 +50,23 @@ function Contact() {
     }
   };
 
+  const validateForm = (data) => {
+    const newErrors = {};
+    if (!data.name || data.name.trim().length < 2) {
+      newErrors.name = "Name is required and must be at least 2 characters";
+    }
+    if (!data.email || !/\S+@\S+\.\S+/.test(data.email)) {
+      newErrors.email = "Please enter a valid email address";
+    }
+    if (!data.message || data.message.trim().length < 10) {
+      newErrors.message = "Message is required and must be at least 10 characters";
+    }
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    resetErrors();
 
     if (!validateForm(formData)) {
       setSubmitStatus({

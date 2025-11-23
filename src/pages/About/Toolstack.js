@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
-import chrome from "../../Assets/TechIcons/Google Chrome.svg";
-import vsCode from "../../Assets/TechIcons/vscode.svg";
-import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
+import macOs from "../../assets/TechIcons/Apple MacOSX.svg";
+import chrome from "../../assets/TechIcons/Google Chrome.svg";
+import vsCode from "../../assets/TechIcons/vscode.svg";
+import intelliJ from "../../assets/TechIcons/intellij-idea.svg";
 import { FiFigma } from "react-icons/fi";
 import { SiAdobexd } from "react-icons/si";
 import { SiCanva, SiFramer } from "react-icons/si";

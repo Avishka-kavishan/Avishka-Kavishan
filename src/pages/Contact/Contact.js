@@ -8,7 +8,7 @@ function Contact() {
         <Row className="justify-content-center">
           <Col md={6}>
             <div className="contact-card">
-              <h2 className="mb-4 text-center">Contact Me</h2>
+              <h2 className="mb-4 ">Contact Me</h2>
 
               <Form>
                 <Form.Group className="mb-3">

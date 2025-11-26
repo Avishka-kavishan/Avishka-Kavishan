@@ -862,24 +862,19 @@ button:focus {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
 }
-
-/* Labels */
 .contact-card label {
   font-weight: 600;
 }
 
-/* Inputs */
 .contact-card .form-control {
   border-radius: 8px;
 }
 
-/* Button */
 .contact-card button {
   border-radius: 8px;
   font-weight: 600;
 }
 
-/* 🌙 DARK MODE */
 .dark-mode .contact-page {
   background: #0d0f17;
   color: #e6e6e6;

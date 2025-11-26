@@ -861,6 +861,7 @@ button:focus {
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
+  margin: 30px;
 }
 .contact-card label {
   font-weight: 600;

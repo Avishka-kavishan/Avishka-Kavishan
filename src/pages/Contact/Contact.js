@@ -1,5 +1,14 @@
 import React from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+  AiFillFacebook,
+  AiFillMessage,
+  AiFillMail,
+} from "react-icons/ai";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -35,6 +44,48 @@ function Contact() {
                 </Button>
               </Form>
             </div>
+            <ul className="home-about-social-links">
+                          <li className="social-icons">
+                            <a
+                              href="https://github.com/Avishka-kavishan"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="icon-colour  home-social-icons"
+                            >
+                              <AiFillGithub />
+                            </a>
+                          </li>
+                          <li className="social-icons">
+                            <a
+                              href="0778971323"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="icon-colour  home-social-icons"
+                            >
+                              <FaWhatsapp/>
+                            </a>
+                          </li>
+                          <li className="social-icons">
+                            <a
+                              href="https://www.linkedin.com/in/avishka-kavishan-632476282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="icon-colour  home-social-icons"
+                            >
+                              <FaLinkedinIn />
+                            </a>
+                          </li>
+                          <li className="social-icons">
+                            <a
+                              href="https://www.facebook.com/share/17Umd2xdhz/"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="icon-colour home-social-icons"
+                            >
+                              <AiFillFacebook />
+                            </a>
+                          </li>
+                        </ul>
           </Col>
         </Row>
       </Container>

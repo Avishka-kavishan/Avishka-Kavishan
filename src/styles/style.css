@@ -482,9 +482,6 @@ button:focus {
   color: var(--accent-color) !important;
 }
 
-/* --------- */
-/* Footer */
-/* --------- */
 .footer {
   background-color: var(--footer-bg);
   bottom: 0 !important;
@@ -532,9 +529,7 @@ button:focus {
 .blockquote-footer {
   color: var(--muted-text) !important;
 }
-/* --------- */
-/* Projects */
-/* --------- */
+
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -634,9 +629,6 @@ button:focus {
   padding-top: 10px !important;
 }
 
-/* --------- */
-/* About */
-/* --------- */
 
 .about-section {
   position: relative !important;
@@ -711,9 +703,7 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
-/* Resume */
-/* --------- */
+
 
 .resume-section {
   position: relative !important;
@@ -857,4 +847,64 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+.contact-page {
+  background: #f9f9f9;
+  color: #212121;
+  min-height: 100vh;
+  padding-top: 50px;
+  transition: all 0.3s ease;
+}
+.contact-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* Labels */
+.contact-card label {
+  font-weight: 600;
+}
+
+/* Inputs */
+.contact-card .form-control {
+  border-radius: 8px;
+}
+
+/* Button */
+.contact-card button {
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* 🌙 DARK MODE */
+.dark-mode .contact-page {
+  background: #0d0f17;
+  color: #e6e6e6;
+}
+
+.dark-mode .contact-card {
+  background: #161a23;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .form-control {
+  background: #1e222d;
+  border: 1px solid #2f3542;
+  color: #fff;
+}
+
+.dark-mode .form-control::placeholder {
+  color: #b3b3b3;
+}
+
+.dark-mode label {
+  color: #e6e6e6;
+}
+
+.dark-mode button {
+  background: #6c63ff !important;
+  border: none !important;
 }

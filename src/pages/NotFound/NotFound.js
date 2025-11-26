@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Particle from "../Particle";
+import Particle from "../../components/Particle";
 import { AiFillHome } from "react-icons/ai";
 
 function NotFound() {

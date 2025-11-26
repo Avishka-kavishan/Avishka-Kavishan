@@ -7,6 +7,7 @@ import Projects from "./pages/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./pages/Resume/ResumeNew";
 import Contact from "./pages/Contact/Contact";
+import NotFound from "./pages/NotFound/NotFound";
 import {
   BrowserRouter as Router,
   Route,
@@ -49,6 +50,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>

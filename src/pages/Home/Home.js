@@ -8,11 +8,7 @@ import Techstack from "../About/Techstack";
 import Github from "../About/Github";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
   AiFillFacebook,
-  AiFillMessage,
-  AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 

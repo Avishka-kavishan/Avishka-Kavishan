@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Avishka-Kavishan/static/css/main.8751ea14.css",
+    "main.js": "/Avishka-Kavishan/static/js/main.6317f6d9.js",
+    "static/js/206.020cae30.chunk.js": "/Avishka-Kavishan/static/js/206.020cae30.chunk.js",
+    "static/media/plogo.png": "/Avishka-Kavishan/static/media/plogo.4de6c9a8e8274539cdc1.png",
+    "static/media/Avishka_Kavishan.pdf": "/Avishka-Kavishan/static/media/Avishka_Kavishan.d11e52aa22478ebb631c.pdf",
+    "static/media/about.png": "/Avishka-Kavishan/static/media/about.2ff63b3c74d5e140b86f.png",
+    "static/media/travel.jpg": "/Avishka-Kavishan/static/media/travel.ba569a58a96433e3b319.jpg",
+    "static/media/edu.jpg": "/Avishka-Kavishan/static/media/edu.029cc406d84964fdfd6f.jpg",
+    "static/media/laundry.jpg": "/Avishka-Kavishan/static/media/laundry.f98b98714e7a42331067.jpg",
+    "static/media/booking.jpg": "/Avishka-Kavishan/static/media/booking.633ff87f5e5bb7891cf4.jpg",
+    "static/media/himalaya.jpg": "/Avishka-Kavishan/static/media/himalaya.2424c6234407119a7a5c.jpg",
+    "static/media/self.jpg": "/Avishka-Kavishan/static/media/self.f0578fdc870937a38c0f.jpg",
+    "static/media/setty.jpg": "/Avishka-Kavishan/static/media/setty.cb264ce9dc2c3d4ac995.jpg",
+    "static/media/logok.png": "/Avishka-Kavishan/static/media/logok.755b99b15f49465700fe.png",
+    "static/media/SQL.svg": "/Avishka-Kavishan/static/media/SQL.52fc098126b8b29ddd950a944b5d0026.svg",
+    "static/media/Mongo.svg": "/Avishka-Kavishan/static/media/Mongo.330a0b8d252ae55ce72f3b6d60388b73.svg",
+    "static/media/Python.svg": "/Avishka-Kavishan/static/media/Python.4c10e3e883c66039a07b3d1da3551107.svg",
+    "static/media/React.svg": "/Avishka-Kavishan/static/media/React.dab5e742691999bfe3df57d8d690607b.svg",
+    "static/media/pre.svg": "/Avishka-Kavishan/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Avishka-Kavishan/index.html",
+    "static/media/Java.svg": "/Avishka-Kavishan/static/media/Java.edcb9f2574179c38ce343ae59e91b5bc.svg",
+    "static/media/Node.svg": "/Avishka-Kavishan/static/media/Node.066ea1a40c1c8f42c3facd6c4128111d.svg",
+    "static/media/C++.svg": "/Avishka-Kavishan/static/media/C++.a87de30de97ce5ed259ace5ef23c7e91.svg",
+    "static/media/Javascript.svg": "/Avishka-Kavishan/static/media/Javascript.2d2e6d4fde8c0beaf89875c287164a7c.svg",
+    "static/media/Typescript.svg": "/Avishka-Kavishan/static/media/Typescript.da311fe2461aa58c2cbe9f6948c497c7.svg",
+    "static/media/Git.svg": "/Avishka-Kavishan/static/media/Git.9da88573cca3c97a3a1523ae09d93654.svg",
+    "static/media/Tailwind.svg": "/Avishka-Kavishan/static/media/Tailwind.5dc20a22c455a7a4efeeb9cba430f50b.svg",
+    "static/media/Firebase.svg": "/Avishka-Kavishan/static/media/Firebase.c5e643a18f060de1d39eda5908abbb5f.svg"
+  },
+  "entrypoints": [
+    "static/css/main.8751ea14.css",
+    "static/js/main.6317f6d9.js"
+  ]
+}
